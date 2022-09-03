@@ -3,7 +3,7 @@ extend schema
 
 type Query {
   "The full list of locations presented by the Interplanetary Space Tourism department"
-  locations: [Locations!]!
+  locations: [Location!]!
   "The details of a specific location"
   location(id: ID!): Location
 }
